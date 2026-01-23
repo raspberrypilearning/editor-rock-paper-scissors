@@ -1,45 +1,38 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## Introduction
 
-A brief description - one or two sentences. 
+In this project you will make a Rock, Paper, Scissors game and play against the computer.  
 
---- print-only ---
+Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
 
-![ALT TEXT](images/IMAGE.png)
++ Rock blunts scissors
++ Paper covers rock
++ Scissors cut paper
 
---- /print-only ---
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/rock-paper-scissors-solution" width="400" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe> 
 
---- no-print ---
+### Additional information for club leaders
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
 
---- /no-print ---
+If you need to print this project, please use the [printer friendly version](https://projects.raspberry-pi.org/en/projects/rock-paper-scissors/print).
 
---- no-print ---
+--- collapse ---
+---
+title: Club leader notes
+---
 
-Video embed
+## Introduction:
+In this project, children will learn how to make a program that plays Rock, Paper, Scissors using variables and conditional statements. 
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
+__This project uses Python 3.__ You will be provided with a starter project in the Raspberry Pi Editor
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
+## Learning Objectives
++ Variables
++ Selection (`if`, `elif`, `else`)
++ Comparison `==`
++ Boolean `and`
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
+## Challenges
++ "ASCII art" - Use conditional logic to display ASCII art for rock, paper and scissors. 
++ "Create a new game" - Duplicate the Rock, Paper, Scissors game and remix it to create a new game. 
 
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c
+--- /collapse ---
