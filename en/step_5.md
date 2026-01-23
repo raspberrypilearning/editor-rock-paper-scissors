@@ -1,87 +1,28 @@
---- challenge ---
-## Challenge: ASCII Art
-
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you use ASCII art?
-
-Where:
-
-```
-rock: O
-paper: ___
-scissors: >8
-```
-
-### Hints
-
+<h2 class="c-project-heading--task">Add line breaks</h2>
 --- task ---
-
-Instead of saying `print(computer)` you'll need to add a new line to each of the options in the `if` to print out the correct ASCII art. 
-
---- code ---
----
-language: python
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-if(chosen == 1):
-    computer = 'r'
-    print('O')
---- /code ---
-
---- /task ---    
-
---- task ---
-
-Instead of saying `print (player)` you'll need to add a new if statement to check which item the player chose and print out the correct ASCII art:
-
---- code ---
----
-language: python
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-if(player == 'r'):
-    print('O')
---- /code ---
-
+The code uses numbers to get the computer's choice.
 --- /task ---
 
 --- task ---
+The computer's choice gets printed on a new line. 
 
-Remember that adding `end=' '` to the end of a `print` makes it end with a space instead of a new line. 
+You can fix that by adding `end=' '` after `vs`
 
---- code ---
----
-language: python
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-if(player == 'r'):
-    print('O', end=' ')
---- /code ---
+That tells Python to end with a space instead of a new line.
 --- /task ---
 
---- task ---
-
-Include a line to print `vs` between the player and computer results.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
-line_numbers: false
-line_number_start: 
-line_highlights: 
+line_numbers: true
+line_number_start: 7
+line_highlights: 7
 ---
 print('vs', end=' ')
+
+chosen = randint(1,3)
+#print(chosen)
 --- /code ---
-
---- /task ---
-
---- /challenge ---
+</div>

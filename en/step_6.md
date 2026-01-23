@@ -1,19 +1,50 @@
---- challenge ---
-## Challenge: Create a new game
+<h2 class="c-project-heading--task">Check the result</h2>
+--- task ---
+Check the player choice *and* the computer choice using `and`.
+--- /task ---
 
-Can you create your own game like Rock, Paper, Scissors with different objects?
+--- task ---
 
-You can copy the code from your Rock, Paper Scissors project to start from. 
++ If they are the same then it is a draw
++ look for where the player chose 'r' (rock) but the computer didn't.
++ If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
++ If the computer chose 'p' (paper) then the computer wins (paper beats rock).
 
-This example uses Fire, Logs and Water:
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 24
+line_highlights: 30-34
+---
+if(player == computer):
+    print('DRAW!') 
 
-```
-Fire burns Logs
-Logs make a bridge over Water
-Water puts out Fire
+elif(player == 'r' and computer == 's'):
+    print('Player wins!')
+  
+elif(player == 'r' and computer == 'p'):
+    print('Computer wins!')
 
-fire (f), logs (l) or water (w)? l
-@@@ vs ~~~
-Player wins!
-```
---- /challenge ---
+elif(player == 'p' and computer == 'r'):
+    print('Player wins!')
+  
+elif(player == 'p' and computer == 's'):
+    print('Computer wins!')
+
+elif(player == 's' and computer == 'r'):
+    print('Computer wins!')
+--- /code ---
+
+--- task ---
+Play the game to test your code. 
+Click **Run** to start a new game. 
+--- /task ---
+</div>
+ 
+
+  
+
+

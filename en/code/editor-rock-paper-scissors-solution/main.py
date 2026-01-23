@@ -1,15 +1,15 @@
 from random import randint
-  
-player = input('rock (r), paper (p) or scissors (s)?')
+
+player = input('Choose rock (r), paper (p) or scissors (s)')
 
 if(player == 'r'):
-    print('O', end=' ')
+    print('🪨', end=' ')
   
 elif(player == 'p'):
-    print('___', end=' ')
+    print('📄', end=' ')
   
 elif(player == 's'):
-    print('>8', end=' ')
+    print('✂️', end=' ')
   
 else:
     print('??')
@@ -21,15 +21,15 @@ chosen = randint(1,3)
 
 if(chosen == 1):
     computer = 'r'
-    print('O')
+    print('🪨')
   
 elif(chosen == 2):
     computer = 'p'
-    print('___')
+    print('📄')
   
 else:
     computer = 's'
-    print('>8')
+    print('✂️')
 
 if(player == computer):
     print('DRAW!')

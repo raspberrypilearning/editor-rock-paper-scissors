@@ -1,71 +1,42 @@
-## Player's turn
-
-First, let the player choose Rock, Paper or Scissors. 
-
+<h2 class="c-project-heading--task">Player's turn</h2>
 --- task ---
-Open the [Rock, Paper, Scissors](https://editor.raspberrypi.org/en/projects/rock-paper-scissors-starter){:target="_blank"} project. The code editor will open in another browser tab.
-
-If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+Let the player choose Rock, Paper or Scissors. 
 --- /task ---
 
-The project already contains the code to import a function that you are going to use in this project. 
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 1
----
-from random import randint
---- /code ---
-  
-You'll use `randint` later to generate random numbers.
-
 --- task ---
-
 First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
+Then `print` out what the player chose.
+--- /task ---
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 3
+line_highlights: 3-4
 ---
 from random import randint
   
-player = input('rock (r), paper (p) or scissors (s)?')
---- /code ---
-
---- /task ---
-
---- task ---
-
-Now print out what the player chose:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 3
-line_highlights: 5
----
-player = input('rock (r), paper (p) or scissors (s)?')
+player = input('Choose rock (r), paper (p) or scissors (s)')
 
 print(player, 'vs')
 --- /code ---
-
---- /task ---  
-
 --- task ---
+Click **run** to test your code. 
 
-Test your code by clicking `Run`. Click in the editor output window and enter your choice. 
-
+You can add to the message with more text or use emojis.
 --- /task ---  
+</div>
+
+<div class="c-project-output">
+<pre>Choose rock (r), paper (p) or scissors (s)</pre>
+</div>
+
+
+
 
 
 
