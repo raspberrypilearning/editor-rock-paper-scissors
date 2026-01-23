@@ -10,6 +10,8 @@ Check the player choice *and* the computer choice using `and`.
 + If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
 + If the computer chose 'p' (paper) then the computer wins (paper beats rock).
 
+--- /task ---
+
 <div class="c-project-code">
 --- code ---
 ---
