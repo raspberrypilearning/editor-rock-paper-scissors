@@ -4,11 +4,13 @@ The code uses numbers to get the computer's choice.
 --- /task ---
 
 --- task ---
-Use `if`, `elif` to check the chosen number with the rock, paper or scissors.
+Use `if` and `elif` to make the chosen number be rock, paper or scissors.
 
   + 1 = rock (r)
   + 2 = paper (p)
   + 3 = scissors (s)
+
+You can add a `#` to the start of the line `print(chosen)`, to make the computer ignore it.
 --- /task ---
 
 <div class="c-project-code">
@@ -17,8 +19,8 @@ Use `if`, `elif` to check the chosen number with the rock, paper or scissors.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 10
-line_highlights: 16-17
+line_number_start: 6
+line_highlights: 9-18+
 ---
 chosen = randint(1,3) # Generate a random number between 1 and 3
 # print(chosen)
@@ -37,9 +39,10 @@ print(computer)
 
 --- task ---
 Click **run** to print the letter that corrosponds to the random number.
-
-You can add a `#` to the start of the line `print(chosen)`, to make the computer ignore it.
 --- /task ---
 </div>
 
+output:
+s vs
+r
   

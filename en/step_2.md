@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Player's turn</h2>
 --- task ---
-Let the player choose Rock, Paper or Scissors. 
+Get the player input for Rock, Paper or Scissors. 
 --- /task ---
 
 --- task ---
-First, let the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
+Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
 Then `print` out what the player chose.
 --- /task ---
@@ -21,7 +21,6 @@ line_highlights: 3-4
 from random import randint
   
 player = input('Choose rock (r), paper (p) or scissors (s)')
-
 print(player, 'vs')
 --- /code ---
 --- task ---

@@ -14,7 +14,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 3
-line_highlights: 7-8
+line_highlights: 6-7
 ---
 player = input('Choose rock (r), paper (p) or scissors (s)')
 print(player, 'vs')
@@ -25,7 +25,7 @@ print(chosen)
 --- task ---
 **Run** your code lots of times (you'll need to enter 'r', 'p' or 's' each time.)
 
-You should see that 'chosen' is randomly set to either 1, 2 or 3. 
+The random number either 1, 2 or 3. 
 --- /task ---  
 </div>
 

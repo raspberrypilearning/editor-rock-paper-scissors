@@ -3,7 +3,7 @@
 Make a Rock, Paper, Scissors game and play against the computer.
 --- /task ---
 
-**Rules:** You and the computer both choose rock, paper or scissors. The winner is decided by these rules:
+**Rules:** You and the computer both choose rock, paper or scissors.
 
 🪨 Rock blunts scissors
 📄 Paper covers rock
