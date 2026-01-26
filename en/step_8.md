@@ -3,20 +3,25 @@
 Create a new game!
 --- /task ---
 
+<h2 class="c-project-heading--explainer">Create your own game with different objects</h2>
+
 --- task ---
-Can you create your own game like Rock, Paper, Scissors with different objects?
+You can edit the code from your Rock, Paper Scissors project. 
 
-You can copy the code from your Rock, Paper Scissors project to start from. 
-
-This example uses Fire, Logs and Water:
-
-```
-Fire burns Logs
-Logs make a bridge over Water
-Water puts out Fire
-
-fire (f), logs (l) or water (w)? l
-@@@ vs ~~~
-Player wins!
-```
+The example below shows the output for a Fire, Logs and Water game.
 --- /task ---
+
+<div class="c-project-output">
+<pre>
+
++ Fire burns Logs
++ Logs make a bridge over Water
++ Water puts out Fire
+
+<div class="c-project-output">
+<pre>
+fire (f), logs (l) or water (w)? l
+🔥 vs 💧
+Player wins!
+</pre>
+</div>

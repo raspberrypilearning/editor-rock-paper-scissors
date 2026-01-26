@@ -1,33 +1,34 @@
 <h2 class="c-project-heading--task">Challenge</h2>
 --- task ---
-Upgrade your game!
+Add emojis to your game!
 --- /task ---
+
+Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
+
++ rock could be 🪨 or ✊
++ paper 📄 or ✋
++ scissors ✂️ or ✌️
 
 --- task ---
-Add to the output text. 
-
-Instead of using the letters r, p and s to represent rock, paper and scissors, can you `print` emojis?
+Add a new line to each of the `chosen` options, below shows this for rock. Try adding for paper and scissors.
 --- /task ---
-
-```
-rock: 🪨 
-paper: 📄
-scissors: ✂️
-```
-Instead of `print(computer)` you'll need to add a new line to each of the options in the `if` to print out the emoji. 
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
+line_numbers: true
+line_number_start: 6
+line_highlights: 11
 ---
+chosen = randint(1,3) # Generate a random number between 1 and 3
+#print(chosen)
+
 if(chosen == 1):
-    computer = 'r'
+    computer = 'r' # Computer picks rock
     print('🪨')
 --- /code ---
 </div>
+
 

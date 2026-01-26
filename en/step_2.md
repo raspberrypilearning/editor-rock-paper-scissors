@@ -26,7 +26,7 @@ print(player, 'vs')
 --- task ---
 Click **run** to test your code. 
 
-You can add to the message with more text or use emojis.
+Try adding to the `input()` message with your own text or use emojis.
 --- /task ---  
 </div>
 

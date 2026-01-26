@@ -23,9 +23,9 @@ chosen = randint(1,3) # Generate a random number between 1 and 3
 print(chosen)
 --- /code ---
 --- task ---
-**Run** your code lots of times (you'll need to enter 'r', 'p' or 's' each time.)
+**Run** your code lots of times to see random number either 1, 2 or 3. 
 
-The random number either 1, 2 or 3. 
+You'll need to enter 'r', 'p' or 's' each time.
 --- /task ---  
 </div>
 

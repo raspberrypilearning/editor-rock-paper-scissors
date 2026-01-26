@@ -17,12 +17,18 @@ That tells Python to end with a space instead of a new line.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 7
+line_number_start: 3
+line_highlights: 4
 ---
-print('vs', end=' ')
+player = input('Choose rock (r), paper (p) or scissors (s)')
+print(player, 'vs', end=' ')
 
-chosen = randint(1,3)
+chosen = randint(1,3) # Generate a random number between 1 and 3
 #print(chosen)
 --- /code ---
+</div>
+
+<div class="c-project-output">
+<pre>Choose rock (r), paper (p) or scissors (s)
+r vs p</pre>
 </div>
