@@ -1,13 +1,17 @@
 <h2 class="c-project-heading--task">Check the result</h2>
 --- task ---
+
 Check the player choice *and* the computer choice using `and`.
+
 --- /task ---
 
 --- task ---
+
 + If they are the same then it is a draw
 + look for where the player chose 'r' (rock) but the computer didn't.
 + If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
 + If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+
 --- /task ---
 
 <div class="c-project-code">
@@ -41,9 +45,11 @@ elif(player == 's' and computer == 'r'):
 --- /code ---
 
 --- task ---
+
 Play the game!
 
 Click **Run** to start a new game. 
+
 --- /task ---
 </div>
  

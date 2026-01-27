@@ -1,14 +1,18 @@
 <h2 class="c-project-heading--task">Challange</h2>
 --- task ---
+
 Create a new game!
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Create your own game with different objects</h2>
 
 --- task ---
+
 You can edit the code from your Rock, Paper Scissors project. 
 
 The example below shows the output for a Fire, Logs and Water game.
+
 --- /task ---
 
 <div class="c-project-output">

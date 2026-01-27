@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Challenge</h2>
 --- task ---
+
 Add emojis to your game!
+
 --- /task ---
 
 Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
@@ -10,7 +12,9 @@ Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s
 + scissors ✂️ or ✌️
 
 --- task ---
+
 Add a new line to each of the `chosen` options, below shows this for rock. Try adding for paper and scissors.
+
 --- /task ---
 
 <div class="c-project-code">

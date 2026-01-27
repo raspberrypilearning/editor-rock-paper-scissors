@@ -1,12 +1,16 @@
 <h2 class="c-project-heading--task">Player's turn</h2>
 --- task ---
+
 Get the player input for Rock, Paper or Scissors. 
+
 --- /task ---
 
 --- task ---
+
 Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
 Then `print` out what the player chose.
+
 --- /task ---
 
 <div class="c-project-code">
@@ -24,9 +28,11 @@ player = input('Choose rock (r), paper (p) or scissors (s)')
 print(player, 'vs')
 --- /code ---
 --- task ---
+
 Click **run** to test your code. 
 
 Try adding to the `input()` message with your own text or use emojis.
+
 --- /task ---  
 </div>
 

@@ -1,14 +1,18 @@
 <h2 class="c-project-heading--task">Add line breaks</h2>
 --- task ---
+
 The code uses numbers to get the computer's choice.
+
 --- /task ---
 
 --- task ---
+
 The computer's choice gets printed on a new line. 
 
 You can fix that by adding `end=' '` after `vs`
 
 That tells Python to end with a space instead of a new line.
+
 --- /task ---
 
 <div class="c-project-code">

@@ -1,9 +1,12 @@
 <h2 class="c-project-heading--task">Print choice</h2>
 --- task ---
+
 The code uses numbers to get the computer's choice.
+
 --- /task ---
 
 --- task ---
+
 Use `if` and `elif` to make the chosen number rock, paper or scissors.
 
   + 1 = rock (r)
@@ -11,6 +14,7 @@ Use `if` and `elif` to make the chosen number rock, paper or scissors.
   + 3 = scissors (s)
 
 You can add a `#` to the start of the line `print(chosen)`, to make the computer ignore it.
+
 --- /task ---
 
 <div class="c-project-code">
@@ -38,9 +42,11 @@ print(computer)
 --- /code ---
 
 --- task ---
+
 Click **run** to print the letter that corresponds to the random number.
 
 Try it a few times to see the letter change.
+
 --- /task ---
 </div>
   

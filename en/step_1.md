@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
+
 Make a Rock, Paper, Scissors game and play against the computer.
+
 --- /task ---
 
 **Rules:**
@@ -10,7 +12,9 @@ Make a Rock, Paper, Scissors game and play against the computer.
 ✂️ Scissors cut paper
 
 --- task ---
+
 Click **run** below to play the finished game.
+
 --- /task ---
 
 <div class="c-project-output">
