@@ -13,7 +13,7 @@ Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s
 
 --- task ---
 
-Add a new line to each of the `chosen` options, below shows this for rock. Try adding for paper and scissors.
+To do this, add `if` and `elif` to each of the `player` options, like the code below.
 
 --- /task ---
 
@@ -23,16 +23,38 @@ Add a new line to each of the `chosen` options, below shows this for rock. Try a
 language: python
 filename: 
 line_numbers: true
-line_number_start: 6
-line_highlights: 11
+line_number_start: 
+line_highlights: 
+---
+player = input('Choose rock (r), paper (p) or scissors (s)')
+if(player == 'r'):
+    print('🪨 vs', end=' ')
+
+--- /code ---
+</div>
+
+
+--- task ---
+
+Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
+
+--- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: 
+line_numbers: true
+line_number_start: 
+line_highlights: 
 ---
 chosen = randint(1,3) # Generate a random number between 1 and 3
-#print(chosen)
+# print(chosen)
 
 if(chosen == 1):
     computer = 'r' # Computer picks rock
     print('🪨')
 --- /code ---
 </div>
-
 

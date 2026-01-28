@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Challange</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 --- task ---
 
 Create a new game!

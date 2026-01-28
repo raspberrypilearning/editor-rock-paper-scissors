@@ -24,7 +24,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 6
-line_highlights: 9-18
+line_highlights: 7, 9-18
 ---
 chosen = randint(1,3) # Generate a random number between 1 and 3
 # print(chosen)

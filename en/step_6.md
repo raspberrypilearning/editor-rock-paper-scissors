@@ -21,7 +21,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 18
-line_highlights: 20-36
+line_highlights: 20-39
 ---
 print(computer)
 
@@ -42,6 +42,9 @@ elif(player == 'p' and computer == 's'):
 
 elif(player == 's' and computer == 'r'):
     print('Computer wins!')
+
+elif(player == 's' and computer == 'p'): 
+    print('Player wins!')
 --- /code ---
 
 --- task ---

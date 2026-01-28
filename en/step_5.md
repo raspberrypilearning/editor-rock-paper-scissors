@@ -25,10 +25,10 @@ line_number_start: 3
 line_highlights: 4
 ---
 player = input('Choose rock (r), paper (p) or scissors (s)')
-print(player, 'vs', end=' ')
+print(player, 'vs', end='')
 
 chosen = randint(1,3) # Generate a random number between 1 and 3
-#print(chosen)
+# print(chosen)
 --- /code ---
 </div>
 
