@@ -5,24 +5,26 @@ Add emojis to your game!
 
 --- /task ---
 
+--- task ---
+
 Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
 
 + rock could be 🪨 or ✊
 + paper 📄 or ✋
 + scissors ✂️ or ✌️
 
+--- /task ---
+
 --- task ---
 
 To do this, add `if` and `elif` to each of the `player` options, like the code below.
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: 
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
@@ -33,19 +35,19 @@ if(player == 'r'):
 --- /code ---
 </div>
 
+--- /task ---
 
 --- task ---
 
 Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: 
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
@@ -58,3 +60,4 @@ if(chosen == 1):
 --- /code ---
 </div>
 
+--- /task ---
