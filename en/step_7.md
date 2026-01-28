@@ -30,8 +30,8 @@ line_highlights:
 ---
 player = input('Choose rock (r), paper (p) or scissors (s)')
 if(player == 'r'):
-    print('🪨 vs', end=' ')
-
+    print('🪨', end='')
+    print('vs', end='')
 --- /code ---
 </div>
 
