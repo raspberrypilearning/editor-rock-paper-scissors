@@ -27,6 +27,7 @@ from random import randint
 player = input('Choose rock (r), paper (p) or scissors (s)')
 print(player, 'vs')
 --- /code ---
+</div>
 --- task ---
 
 Click **run** to test your code. 
@@ -34,12 +35,10 @@ Click **run** to test your code.
 Try adding to the `input()` message with your own text or use emojis.
 
 --- /task ---  
-</div>
 
 <div class="c-project-output">
 <pre>Choose rock (r), paper (p) or scissors (s)</pre>
 </div>
-
 
 
 

@@ -26,6 +26,7 @@ print(player, 'vs')
 chosen = randint(1,3) # Generate a random number between 1 and 3
 print(chosen)
 --- /code ---
+</div>
 --- task ---
 
 **Run** your code lots of times to see random number either 1, 2 or 3. 
@@ -33,5 +34,3 @@ print(chosen)
 You'll need to enter 'r', 'p' or 's' each time.
 
 --- /task ---  
-</div>
-

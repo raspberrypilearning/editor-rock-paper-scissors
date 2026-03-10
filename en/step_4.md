@@ -40,6 +40,7 @@ elif(chosen == 3):
 
 print(computer)
 --- /code ---
+</div>
 
 --- task ---
 
@@ -48,7 +49,6 @@ Click **run** to print the letter that corresponds to the random number.
 Try it a few times to see the letter change.
 
 --- /task ---
-</div>
   
 <div class="c-project-output">
 <pre>Choose rock (r), paper (p) or scissors (s)
