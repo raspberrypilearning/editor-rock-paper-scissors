@@ -16,17 +16,19 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-  completion:
-  - engaged
-- title: Step 3
-- title: Step 4
-  completion:
-  - internal
-  - external
-- title: Step 5
-- title: Step 6
-- title: Step 7
-- title: Step 8
+  - title: "Player's turn"
+  - title: "Computer's turn"
+    completion:
+      - engaged
+  - title: Print choice
+  - title: Add line breaks
+  - title: Check the result
+    completion:
+      - internal
+  - title: Challenge
+    completion:
+      - external
+  - title: Challenge
+    challenge: true

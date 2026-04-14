@@ -1,15 +1,19 @@
-<h2 class="c-project-heading--task">Computer's turn</h2>
---- task ---
+<h2 class="c-project-heading--task">Print choice</h2>
+### Step 1
 
-Now it's the computer's turn. 
+The code uses numbers to get the computer's choice.
 
---- /task ---
 
---- task ---
+### Step 2
 
-Use `randint` to generate a random number for the computer.
+Use `if` and `elif` to make the chosen number rock, paper or scissors.
 
---- /task ---
+  + 1 = rock (r)
+  + 2 = paper (p)
+  + 3 = scissors (s)
+
+You can add a `#` to the start of the line `print(chosen)`, to make the computer ignore it.
+
 
 <div class="c-project-code">
 --- code ---
@@ -17,20 +21,34 @@ Use `randint` to generate a random number for the computer.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 3
-line_highlights: 6-7
+line_number_start: 6
+line_highlights: 7, 9-18
 ---
-player = input('Choose rock (r), paper (p) or scissors (s)')
-print(player, 'vs')
-
 chosen = randint(1,3) # Generate a random number between 1 and 3
-print(chosen)
+# print(chosen)
+
+if(chosen == 1):
+    computer = 'r' # Computer picks rock
+
+elif(chosen == 2):
+    computer = 'p' # Computer picks paper
+
+elif(chosen == 3):
+  computer = 's'# Computer picks scissors
+
+print(computer)
 --- /code ---
 </div>
---- task ---
 
-**Run** your code lots of times to see random number either 1, 2 or 3. 
+### Step 3
 
-You'll need to enter 'r', 'p' or 's' each time.
+Click **run** to print the letter that corresponds to the random number.
 
---- /task ---  
+Try it a few times to see the letter change.
+
+  
+<div class="c-project-output">
+<pre>Choose rock (r), paper (p) or scissors (s)
+s vs
+r</pre>
+</div>

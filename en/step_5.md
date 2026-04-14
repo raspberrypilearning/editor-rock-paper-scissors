@@ -1,19 +1,16 @@
-<h2 class="c-project-heading--task">Add line breaks</h2>
---- task ---
+<h2 class="c-project-heading--task">Check the result</h2>
+### Step 1
 
-The code uses numbers to get the computer's choice.
+Check the player choice *and* the computer choice using `and`.
 
---- /task ---
 
---- task ---
+### Step 2
 
-The computer's choice gets printed on a new line. 
++ If they are the same then it is a draw
++ look for where the player chose 'r' (rock) but the computer didn't.
++ If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
++ If the computer chose 'p' (paper) then the computer wins (paper beats rock).
 
-You can fix that by adding `end=' '` after `vs`
-
-That tells Python to end with a space instead of a new line.
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -21,18 +18,44 @@ That tells Python to end with a space instead of a new line.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 3
-line_highlights: 4
+line_number_start: 18
+line_highlights: 20-39
 ---
-player = input('Choose rock (r), paper (p) or scissors (s)')
-print(player, 'vs', end='')
+print(computer)
 
-chosen = randint(1,3) # Generate a random number between 1 and 3
-# print(chosen)
+if(player == computer):
+    print('DRAW!') 
+
+elif(player == 'r' and computer == 's'):
+    print('Player wins!')
+  
+elif(player == 'r' and computer == 'p'):
+    print('Computer wins!')
+
+elif(player == 'p' and computer == 'r'):
+    print('Player wins!')
+  
+elif(player == 'p' and computer == 's'):
+    print('Computer wins!')
+
+elif(player == 's' and computer == 'r'):
+    print('Computer wins!')
+
+elif(player == 's' and computer == 'p'): 
+print('Player wins!')
 --- /code ---
 </div>
 
+### Step 3
+
+Play the game!
+
+Click **Run** to start a new game. 
+
+ 
 <div class="c-project-output">
 <pre>Choose rock (r), paper (p) or scissors (s)
-r vs p</pre>
+r
+r vs r
+DRAW!</pre>
 </div>

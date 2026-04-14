@@ -1,63 +1,29 @@
 <h2 class="c-project-heading--task">Challenge</h2>
---- task ---
+### Step 1
 
-Add emojis to your game!
+Create a new game!
 
---- /task ---
 
---- task ---
+<h2 class="c-project-heading--explainer">Create your own game with different objects</h2>
 
-Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
+### Step 2
 
-+ rock could be 🪨 or ✊
-+ paper 📄 or ✋
-+ scissors ✂️ or ✌️
+You can edit the code from your Rock, Paper Scissors project. 
 
---- /task ---
+The example below shows the output for a Fire, Logs and Water game.
 
---- task ---
 
-To do this, add `if` and `elif` to each of the `player` options, like the code below.
+<div class="c-project-output">
+<pre>
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-player = input('Choose rock (r), paper (p) or scissors (s)')
-if(player == 'r'):
-    print('🪨', end='')
-    print('vs', end='')
---- /code ---
++ Fire burns Logs
++ Logs make a bridge over Water
++ Water puts out Fire
+
+<div class="c-project-output">
+<pre>
+fire (f), logs (l) or water (w)? l
+🔥 vs 💧
+Player wins!
+</pre>
 </div>
-
---- /task ---
-
---- task ---
-
-Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
-
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-chosen = randint(1,3) # Generate a random number between 1 and 3
-# print(chosen)
-
-if(chosen == 1):
-    computer = 'r' # Computer picks rock
-    print('🪨')
---- /code ---
-</div>
-
---- /task ---

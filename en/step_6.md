@@ -1,66 +1,58 @@
-<h2 class="c-project-heading--task">Check the result</h2>
---- task ---
+<h2 class="c-project-heading--task">Challenge</h2>
+### Step 1
 
-Check the player choice *and* the computer choice using `and`.
+Add emojis to your game!
 
---- /task ---
 
---- task ---
+### Step 2
 
-+ If they are the same then it is a draw
-+ look for where the player chose 'r' (rock) but the computer didn't.
-+ If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
-+ If the computer chose 'p' (paper) then the computer wins (paper beats rock).
+Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
 
---- /task ---
++ rock could be 🪨 or ✊
++ paper 📄 or ✋
++ scissors ✂️ or ✌️
+
+
+### Step 3
+
+To do this, add `if` and `elif` to each of the `player` options, like the code below.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
-filename: main.py
-line_numbers: true
-line_number_start: 18
-line_highlights: 20-39
+filename: 
+line_numbers: false
+line_number_start: 
+line_highlights: 
 ---
-print(computer)
-
-if(player == computer):
-    print('DRAW!') 
-
-elif(player == 'r' and computer == 's'):
-    print('Player wins!')
-  
-elif(player == 'r' and computer == 'p'):
-    print('Computer wins!')
-
-elif(player == 'p' and computer == 'r'):
-    print('Player wins!')
-  
-elif(player == 'p' and computer == 's'):
-    print('Computer wins!')
-
-elif(player == 's' and computer == 'r'):
-    print('Computer wins!')
-
-elif(player == 's' and computer == 'p'): 
-print('Player wins!')
+player = input('Choose rock (r), paper (p) or scissors (s)')
+if(player == 'r'):
+    print('🪨', end='')
+    print('vs', end='')
 --- /code ---
 </div>
 
---- task ---
 
-Play the game!
+### Step 4
 
-Click **Run** to start a new game. 
+Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
 
---- /task ---
- 
-<div class="c-project-output">
-<pre>Choose rock (r), paper (p) or scissors (s)
-r
-r vs r
-DRAW!</pre>
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: 
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+chosen = randint(1,3) # Generate a random number between 1 and 3
+# print(chosen)
+
+if(chosen == 1):
+    computer = 'r' # Computer picks rock
+    print('🪨')
+--- /code ---
 </div>
-
-

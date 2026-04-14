@@ -1,22 +1,38 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+<h2 class="c-project-heading--task">Player's turn</h2>
+### Step 1
 
-Make a Rock, Paper, Scissors game and play against the computer.
+Get the player input for Rock, Paper or Scissors. 
 
---- /task ---
 
-**Rules:**
+### Step 2
 
-🪨 Rock blunts scissors
-📄 Paper covers rock
-✂️ Scissors cut paper
+Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
---- task ---
+Then `print` out what the player chose.
 
-Click **run** below to play the finished game.
 
---- /task ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3-4
+---
+from random import randint
+  
+player = input('Choose rock (r), paper (p) or scissors (s)')
+print(player, 'vs')
+--- /code ---
+</div>
+### Step 3
+
+Click **run** to test your code. 
+
+Try adding to the `input()` message with your own text or use emojis.
+
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-rock-paper-scissors-solution" width="400" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe> 
+<pre>Choose rock (r), paper (p) or scissors (s)</pre>
 </div>

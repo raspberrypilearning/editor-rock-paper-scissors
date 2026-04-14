@@ -1,3 +1,4 @@
 name: 'Rock Paper Scissors Starter'
 identifier: 'editor-rock-paper-scissors-starter'
 type: 'python'
+build: true
