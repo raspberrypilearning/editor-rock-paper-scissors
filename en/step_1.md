@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Player's turn</h2>
+
+Get the player input for Rock, Paper or Scissors.
+
 ### Step 1
-
-Get the player input for Rock, Paper or Scissors. 
-
-
-### Step 2
 
 Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
@@ -26,7 +24,7 @@ player = input('Choose rock (r), paper (p) or scissors (s)')
 print(player, 'vs')
 --- /code ---
 </div>
-### Step 3
+### Step 2
 
 Click **run** to test your code. 
 

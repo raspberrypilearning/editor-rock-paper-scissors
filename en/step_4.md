@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Add line breaks</h2>
-### Step 1
 
 The code uses numbers to get the computer's choice.
 
-
-### Step 2
+### Step 1
 
 The computer's choice gets printed on a new line. 
 

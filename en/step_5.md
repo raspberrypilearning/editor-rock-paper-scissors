@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Check the result</h2>
-### Step 1
 
 Check the player choice *and* the computer choice using `and`.
 
-
-### Step 2
+### Step 1
 
 + If they are the same then it is a draw
 + look for where the player chose 'r' (rock) but the computer didn't.
@@ -46,7 +44,7 @@ print('Player wins!')
 --- /code ---
 </div>
 
-### Step 3
+### Step 2
 
 Play the game!
 

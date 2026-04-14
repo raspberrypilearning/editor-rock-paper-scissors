@@ -1,12 +1,10 @@
 <h2 class="c-project-heading--task">Challenge</h2>
-### Step 1
 
 Create a new game!
 
-
 <h2 class="c-project-heading--explainer">Create your own game with different objects</h2>
 
-### Step 2
+### Step 1
 
 You can edit the code from your Rock, Paper Scissors project. 
 

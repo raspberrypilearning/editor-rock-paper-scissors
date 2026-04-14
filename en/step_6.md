@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Challenge</h2>
-### Step 1
 
 Add emojis to your game!
 
-
-### Step 2
+### Step 1
 
 Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
 
@@ -13,7 +11,7 @@ Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s
 + scissors ✂️ or ✌️
 
 
-### Step 3
+### Step 2
 
 To do this, add `if` and `elif` to each of the `player` options, like the code below.
 
@@ -34,7 +32,7 @@ if(player == 'r'):
 </div>
 
 
-### Step 4
+### Step 3
 
 Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
 
