@@ -2,7 +2,9 @@
 
 Get the player input for Rock, Paper or Scissors.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
@@ -24,7 +26,8 @@ player = input('Choose rock (r), paper (p) or scissors (s)')
 print(player, 'vs')
 --- /code ---
 </div>
-### Step 2
+
+## Step 2
 
 Click **run** to test your code. 
 
@@ -34,3 +37,7 @@ Try adding to the `input()` message with your own text or use emojis.
 <div class="c-project-output">
 <pre>Choose rock (r), paper (p) or scissors (s)</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

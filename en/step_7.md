@@ -4,8 +4,6 @@ Create a new game!
 
 <h2 class="c-project-heading--explainer">Create your own game with different objects</h2>
 
-### Step 1
-
 You can edit the code from your Rock, Paper Scissors project. 
 
 The example below shows the output for a Fire, Logs and Water game.
@@ -25,3 +23,7 @@ fire (f), logs (l) or water (w)? l
 Player wins!
 </pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

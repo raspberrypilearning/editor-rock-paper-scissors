@@ -2,7 +2,7 @@
 
 The code uses numbers to get the computer's choice.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 The computer's choice gets printed on a new line. 
 
@@ -32,3 +32,7 @@ chosen = randint(1,3) # Generate a random number between 1 and 3
 <pre>Choose rock (r), paper (p) or scissors (s)
 r vs p</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.

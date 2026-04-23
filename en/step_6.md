@@ -2,7 +2,9 @@
 
 Add emojis to your game!
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
 
@@ -10,8 +12,7 @@ Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s
 + paper 📄 or ✋
 + scissors ✂️ or ✌️
 
-
-### Step 2
+## Step 2
 
 To do this, add `if` and `elif` to each of the `player` options, like the code below.
 
@@ -31,8 +32,7 @@ if(player == 'r'):
 --- /code ---
 </div>
 
-
-### Step 3
+## Step 3
 
 Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
 
@@ -54,3 +54,7 @@ if(chosen == 1):
     print('🪨')
 --- /code ---
 </div>
+
+## Now run your code
+
+Confirm the observable result.

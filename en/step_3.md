@@ -2,7 +2,9 @@
 
 The code uses numbers to get the computer's choice.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Use `if` and `elif` to make the chosen number rock, paper or scissors.
 
@@ -38,7 +40,7 @@ print(computer)
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **run** to print the letter that corresponds to the random number.
 
@@ -50,3 +52,7 @@ Try it a few times to see the letter change.
 s vs
 r</pre>
 </div>
+
+## Now run your code
+
+Confirm the observable result.
