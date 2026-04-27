@@ -34,4 +34,4 @@ You'll need to enter 'r', 'p' or 's' each time.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code a few times, enter `r`, `p`, or `s`, and check that the random number changes between `1`, `2`, and `3`.

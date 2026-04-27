@@ -55,4 +55,4 @@ r</pre>
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** a few times and check that the computer prints `r`, `p`, or `s` to match its random choice.

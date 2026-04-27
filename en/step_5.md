@@ -62,4 +62,4 @@ DRAW!</pre>
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the game now tells you whether it is a draw, a player win, or a computer win.

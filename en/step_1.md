@@ -40,4 +40,4 @@ Try adding to the `input()` message with your own text or use emojis.
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the game asks you to choose rock, paper, or scissors.

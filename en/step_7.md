@@ -26,4 +26,4 @@ Player wins!
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that your new game objects appear and the game still picks the winner correctly.
