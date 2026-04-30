@@ -1,45 +1,43 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Player's turn</h2>
 
-A brief description - one or two sentences. 
+Get the player input for Rock, Paper or Scissors.
 
---- print-only ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-![ALT TEXT](images/IMAGE.png)
+## Step 1
 
---- /print-only ---
+Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
 
---- no-print ---
+Then `print` out what the player chose.
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
 
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3-4
+---
+from random import randint
+  
+player = input('Choose rock (r), paper (p) or scissors (s)')
+print(player, 'vs')
+--- /code ---
 </div>
 
---- /no-print ---
+## Step 2
 
-### You will need:
-- a
-- b
-- c
+Click **run** to test your code. 
+
+Try adding to the `input()` message with your own text or use emojis.
+
+
+<div class="c-project-output">
+<pre>Choose rock (r), paper (p) or scissors (s)</pre>
+</div>
+
+## Now run your code
+
+Click **Run** and check that the game asks you to choose rock, paper, or scissors.

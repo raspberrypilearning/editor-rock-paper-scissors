@@ -1,0 +1,4 @@
+name: 'Rock Paper Scissors Solution'
+identifier: 'editor-rock-paper-scissors-solution'
+type: 'python'
+build: true
