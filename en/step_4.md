@@ -2,8 +2,6 @@
 
 The code uses numbers to get the computer's choice.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 The computer's choice gets printed on a new line. 
 
 You can fix that by adding `end=' '` after `vs`
