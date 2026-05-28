@@ -2,8 +2,6 @@
 
 Now it's the computer's turn.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Use `randint` to generate a random number for the computer.
