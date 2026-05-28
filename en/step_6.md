@@ -2,8 +2,6 @@
 
 Add emojis to your game!
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.

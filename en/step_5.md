@@ -2,8 +2,6 @@
 
 Check the player choice *and* the computer choice using `and`.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 + If they are the same then it is a draw

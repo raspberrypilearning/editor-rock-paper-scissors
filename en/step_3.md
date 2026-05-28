@@ -2,8 +2,6 @@
 
 The code uses numbers to get the computer's choice.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Use `if` and `elif` to make the chosen number rock, paper or scissors.

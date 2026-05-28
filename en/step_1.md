@@ -2,8 +2,6 @@
 
 Get the player input for Rock, Paper or Scissors.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
