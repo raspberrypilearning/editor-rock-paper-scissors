@@ -4,9 +4,9 @@ Create a new game!
 
 <h2 class="c-project-heading--explainer">Create your own game with different objects</h2>
 
-You can edit the code from your Rock, Paper Scissors project. 
+You can edit the code from your Rock, Paper, Scissors project. 
 
-The example below shows the output for a Fire, Logs and Water game.
+The example below shows the output for a Fire, Logs, and Water game.
 
 
 <div class="c-project-output">
