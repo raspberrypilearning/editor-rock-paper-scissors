@@ -4,13 +4,13 @@ The code uses numbers to get the computer's choice.
 
 ## Step 1
 
-Use `if` and `elif` to make the chosen number rock, paper or scissors.
+Use `if` and `elif` to make the chosen number rock, paper, or scissors.
 
   + 1 = rock (r)
   + 2 = paper (p)
   + 3 = scissors (s)
 
-You can add a `#` to the start of the line `print(chosen)`, to make the computer ignore it.
+You can add a `#` to the start of the line `print(chosen)` to make the computer ignore this instruction.
 
 
 <div class="c-project-code">
