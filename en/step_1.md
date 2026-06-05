@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Player's turn</h2>
 
-Get the player input for Rock, Paper or Scissors.
+Get the player's input for Rock, Paper, or Scissors.
 
 ## Step 1
 
-Ask the player choose Rock, Paper or Scissors by typing the letter 'r', 'p' or 's'. 
+Ask the player choose rock, paper, or scissors by typing the letter 'r', 'p', or 's'. 
 
 Then `print` out what the player chose.
 
@@ -33,7 +33,7 @@ Try adding to the `input()` message with your own text or use emojis.
 
 
 <div class="c-project-output">
-<pre>Choose rock (r), paper (p) or scissors (s)</pre>
+<pre>Choose rock (r), paper (p), or scissors (s)</pre>
 </div>
 
 ## Now run your code
