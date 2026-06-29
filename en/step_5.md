@@ -40,7 +40,7 @@ elif(player == 's' and computer == 'r'):
     print('Computer wins!')
 
 elif(player == 's' and computer == 'p'): 
-print('Player wins!')
+    print('Player wins!')
 --- /code ---
 </div>
 
