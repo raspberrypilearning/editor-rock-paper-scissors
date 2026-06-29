@@ -4,11 +4,11 @@ Add emojis to your game!
 
 ## Step 1
 
-Instead of using the letters r, p and s to represent **r**ock, **p**aper and **s**cissors, try adding emojis.
+Instead of using the letters r, p, and s to represent rock, paper, and scissors, try adding emojis.
 
-+ rock could be 🪨 or ✊
-+ paper 📄 or ✋
-+ scissors ✂️ or ✌️
++ Rock could be 🪨 or ✊
++ Paper 📄 or ✋
++ Scissors ✂️ or ✌️
 
 ## Step 2
 
@@ -32,7 +32,7 @@ if(player == 'r'):
 
 ## Step 3
 
-Then add to the computer `chosen` options, below shows this for rock. Try adding for paper and scissors.
+Then add to the computer `chosen` options, below shows how to do this for rock. Try adding paper and scissors too.
 
 
 <div class="c-project-code">

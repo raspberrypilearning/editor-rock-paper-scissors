@@ -26,9 +26,9 @@ print(chosen)
 
 ## Step 2
 
-**Run** your code lots of times to see random number either 1, 2 or 3. 
+**Run** your code lots of times to check that it prints 1, 2, or 3 randomly. 
 
-You'll need to enter 'r', 'p' or 's' each time.
+You'll need to enter 'r', 'p', or 's' each time.
 
 ## Now run your code
 

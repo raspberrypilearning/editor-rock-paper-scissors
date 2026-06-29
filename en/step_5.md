@@ -1,13 +1,13 @@
 <h2 class="c-project-heading--task">Check the result</h2>
 
-Check the player choice *and* the computer choice using `and`.
+Check the player's choice **and** the computer's choice using `and`.
 
 ## Step 1
 
 + If they are the same then it is a draw
-+ look for where the player chose 'r' (rock) but the computer didn't.
-+ If the computer chose 's' (scissors) then the player wins (rock beats scissors). 
-+ If the computer chose 'p' (paper) then the computer wins (paper beats rock).
++ Look for where the player chose 'r' (rock) but the computer didn't
++ If the computer chose 's' (scissors) then the player wins (rock beats scissors)
++ If the computer chose 'p' (paper) then the computer wins (paper beats rock)
 
 
 <div class="c-project-code">
@@ -40,7 +40,7 @@ elif(player == 's' and computer == 'r'):
     print('Computer wins!')
 
 elif(player == 's' and computer == 'p'): 
-print('Player wins!')
+    print('Player wins!')
 --- /code ---
 </div>
 
