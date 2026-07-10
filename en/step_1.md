@@ -1,41 +1,25 @@
-<h2 class="c-project-heading--task">Player's turn</h2>
+## Player's turn
 
 Get the player's input for Rock, Paper, or Scissors.
 
-## Step 1
-
-Ask the player choose rock, paper, or scissors by typing the letter 'r', 'p', or 's'. 
+Ask the player to choose rock, paper, or scissors by typing the letter 'r', 'p', or 's'.
 
 Then `print` out what the player chose.
 
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 3-4
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="3-4"
 from random import randint
   
 player = input('Choose rock (r), paper (p) or scissors (s)')
 print(player, 'vs')
---- /code ---
-</div>
+```
 
-## Step 2
-
-Click **run** to test your code. 
-
-Try adding to the `input()` message with your own text or use emojis.
-
-
-<div class="c-project-output">
-<pre>Choose rock (r), paper (p), or scissors (s)</pre>
-</div>
+> [!TIP]
+> Try adding to the `input()` message with your own text or use emojis.
 
 ## Now run your code
 
 Click **Run** and check that the game asks you to choose rock, paper, or scissors.
+
+```
+Choose rock (r), paper (p) or scissors (s)
+```

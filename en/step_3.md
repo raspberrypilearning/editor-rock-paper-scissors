@@ -1,8 +1,6 @@
-<h2 class="c-project-heading--task">Print choice</h2>
+## Print choice
 
 The code uses numbers to get the computer's choice.
-
-## Step 1
 
 Use `if` and `elif` to make the chosen number rock, paper, or scissors.
 
@@ -12,16 +10,7 @@ Use `if` and `elif` to make the chosen number rock, paper, or scissors.
 
 You can add a `#` to the start of the line `print(chosen)` to make the computer ignore this instruction.
 
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 6
-line_highlights: 7, 9-18
----
+```python filename="main.py" line_numbers="true" line_number_start="6" line_highlights="7,9-18"
 chosen = randint(1,3) # Generate a random number between 1 and 3
 # print(chosen)
 
@@ -35,22 +24,16 @@ elif(chosen == 3):
   computer = 's'# Computer picks scissors
 
 print(computer)
---- /code ---
-</div>
-
-## Step 2
-
-Click **run** to print the letter that corresponds to the random number.
-
-Try it a few times to see the letter change.
-
-  
-<div class="c-project-output">
-<pre>Choose rock (r), paper (p) or scissors (s)
-s vs
-r</pre>
-</div>
+```
 
 ## Now run your code
 
+Try it a few times to see the letter change.
+
 Click **Run** a few times and check that the computer prints `r`, `p`, or `s` to match its random choice.
+
+```
+Choose rock (r), paper (p) or scissors (s)
+s vs
+r
+```
