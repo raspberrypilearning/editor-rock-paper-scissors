@@ -1,24 +1,13 @@
-<h2 class="c-project-heading--task">Check the result</h2>
+## Check the result
 
 Check the player's choice **and** the computer's choice using `and`.
-
-## Step 1
 
 + If they are the same then it is a draw
 + Look for where the player chose 'r' (rock) but the computer didn't
 + If the computer chose 's' (scissors) then the player wins (rock beats scissors)
 + If the computer chose 'p' (paper) then the computer wins (paper beats rock)
 
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 18
-line_highlights: 20-39
----
+```python filename="main.py" line_numbers="true" line_number_start="18" line_highlights="20-39"
 print(computer)
 
 if(player == computer):
@@ -41,23 +30,17 @@ elif(player == 's' and computer == 'r'):
 
 elif(player == 's' and computer == 'p'): 
     print('Player wins!')
---- /code ---
-</div>
-
-## Step 2
-
-Play the game!
-
-Click **Run** to start a new game. 
-
- 
-<div class="c-project-output">
-<pre>Choose rock (r), paper (p) or scissors (s)
-r
-r vs r
-DRAW!</pre>
-</div>
+```
 
 ## Now run your code
 
+Play the game!
+
 Click **Run** and check that the game now tells you whether it is a draw, a player win, or a computer win.
+
+```
+Choose rock (r), paper (p) or scissors (s)
+r
+r vs r
+DRAW!
+```
